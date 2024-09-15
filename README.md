@@ -34,9 +34,9 @@ This project is a web scraper designed to extract business information from the 
 Make sure you have Python 3.8+ installed on your system.
 
 ## Message
-When the `ui.py` is run, the user's input is taken from the HTML UI deployed by Flask, which retrieves it and stores it as variables. You can see it in `app.py` (Currently Incomplete). These inputs are used to create the most suitable URL from the Angi's site which matches with the user's input. You can see it in `new_options.py` (Done as a python demo, couldn't integrate it with Flask yet). The `options.py` contains the lists of all categories, states and cities within those states (Completed). 
+When the `ui.py` is run, the user's input is taken from the HTML UI deployed by Flask, which retrieves it and stores it as variables. You can see it in `app.py` (Currently Incomplete). These inputs are used to create the most suitable URL from the Angi's site which matches with the user's input. You can see it in `new_options.py` (Done as a python demo, couldn't integrate it with Flask yet). The `options.py` contains the lists of all categories, states and cities within those states (Completed). The `states_and_links.py` contains the URL from `www.angi.com/companylist/us/` with the two-lettered abbreviations of the states stores in variables with their respective names.
 
-I tried my best to deploy the `app.py` and scrape using bs4 and requests in `main.py` but currently I faced some issues like warning that it is a development server and runtime error respectively.
+I tried my best to deploy the `app.py` using `Flask`, and scrape using `bs4` and `requests` in `new.py` but currently I faced some issues like warning that it is a development server and runtime error respectively.
 
 This project is done with the best of my efforts and my novice programming experience sir. 
 
